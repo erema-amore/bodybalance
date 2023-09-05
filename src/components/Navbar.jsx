@@ -40,6 +40,7 @@ export default function EnableColorOnDarkAppBar() {
             <h3>Logo</h3>
           </div>
           <div className={style.nav_home_page}>
+            
             <h3>HomePage</h3>
           </div>
           <div className={style.nav_gym_service}>

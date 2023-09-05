@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    background-color: 
+    #0D0D0E;
+}
+
+.home_page_block_1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.home_page_block_1_text_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: #FFFFFF;
+
+}
+
+.home_page_block_1_text_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58.51px;
+    color: #FFFFFF;
+}
+
+
+.home_page_block_1_text_3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+
+
+}
+
+
+.home_page_block_1_text_btn {
+    width: 160px;
+    height: 33.57px;
+    border-radius: 8px;
+    background: #FA3A10;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+
+
+}
+
+
+.home_page_block_2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.home_page_block_2_list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: 225.26px;
+    height: 177.44px;
+    background: #181818;
+    margin: 30px 0;
+}
+
+
+.home_page_block_2_list_img {
+    background: #181818;
+}
+
+
+
+.home_page_block_2_list_text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.07px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #181818;
+
+}
+
+
+
+.home_page_block_2_list_text2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    font-size: 13px;
+    line-height: 15.85px;
+    color: #FFFFFF;
+    background: #181818;
+
+}
+
+.home_page_block_3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.home_page_block_3_list_text_1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 900px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: 
+    #FFFFFF;
+}
+
+.home_page_block_3_list_2 {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+.home_page_block_3_list_2_text_main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    align-items: center;
+    color: #FA3A10;
+}
+
+
+.home_page_block_3_list_2_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.home_page_block_3_list_2_text_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+
+}
+
+
+.home_page_block_3_list_2_text_3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+}
+
+
+.home_page_block_4_text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+
+}
+
+
+.home_page_block_4_list1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FA3A10;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39.01px;
+    align-items: center;
+}
+
+.home_page_block_4_list1_text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15.85px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
