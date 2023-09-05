@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "name": "Dumbbells Set",
+      "description": "A set of adjustable dumbbells for strength training.",
+      "price": 89.99,
+      "picture": "https://example.com/dumbbells.jpg",
+      "category": "Equipment",
+      "id": 1
+    },
+    {
+      "name": "Treadmill",
+      "description": "A high-quality treadmill for cardio workouts.",
+      "price": 799.99,
+      "picture": "https://example.com/treadmill.jpg",
+      "category": "Equipment",
+      "id": 2
+    },
+    {
+      "name": "Yoga Mat",
+      "description": "A non-slip yoga mat for comfortable practice.",
+      "price": 19.99,
+      "picture": "https://example.com/yoga-mat.jpg",
+      "category": "Equipment",
+      "id": 3
+    },
+    {
+      "name": "Exercise Bike",
+      "description": "An indoor exercise bike for cardio and leg workouts.",
+      "price": 349.99,
+      "picture": "https://example.com/exercise-bike.jpg",
+      "category": "Equipment",
+      "id": 4
+    },
+    {
+      "name": "Weight Bench",
+      "description": "A versatile weight bench for various strength exercises.",
+      "price": 149.99,
+      "picture": "https://example.com/weight-bench.jpg",
+      "category": "Equipment",
+      "id": 5
+    },
+    {
+      "name": "Resistance Bands Set",
+      "description": "A set of resistance bands for full-body workouts.",
+      "price": 24.99,
+      "picture": "https://example.com/resistance-bands.jpg",
+      "category": "Equipment",
+      "id": 6
+    },
+    {
+      "name": "Studio Display",
+      "description": "Потрясающий 27-дюймовый дисплей Retina 5K, и миллиард цветов. Ультраширокая камера 12 МП с функцией 'В центре внимания' Три микрофона студийного качества и звуковая система с шестью динамиками и функцией Spatial Audio. Порты для подключения и зарядки",
+      "price": 2000,
+      "picture": "https://www.istore.kg/media/products/studio-display-1.webp",
+      "category": "Equipment",
+      "id": 7
+    },
+    {
+      "name": "Yoga",
+      "description": "Yoga is a physical, mental, and spiritual practice that originated in ancient India. It includes a combination of physical postures, breathing exercises, and meditation techniques to promote physical and mental well-being.",
+      "price": 0,
+      "picture": "https://example.com/yoga.jpg",
+      "category": "Exercise",
+      "id": 8
+    },
+    {
+      "name": "Zumba",
+      "description": "Zumba is a high-energy fitness dance class that combines Latin and international music with dance moves. It is a fun and effective way to improve cardiovascular fitness and burn calories.",
+      "price": 10.99,
+      "picture": "https://example.com/zumba.jpg",
+      "category": "Exercise",
+      "id": 9
+    },
+    {
+      "name": "Weightlifting",
+      "description": "Weightlifting, also known as strength training or resistance training, involves lifting weights to build and tone muscles. It is an effective way to increase strength and muscle mass.",
+      "price": 0,
+      "picture": "https://example.com/weightlifting.jpg",
+      "category": "Exercise",
+      "id": 10
+    },
+    {
+      "name": "Cardiovascular Exercise",
+      "description": "Cardiovascular exercises, such as running, cycling, and swimming, are designed to improve heart and lung health. They are great for burning calories and increasing endurance.",
+      "price": 0,
+      "picture": "https://example.com/cardio.jpg",
+      "category": "Exercise",
+      "id": 11
+    },
+    {
+      "name": "Pilates",
+      "description": "Pilates is a low-impact exercise method that focuses on strengthening the core muscles, improving flexibility, and enhancing body awareness. It is suitable for all fitness levels.",
+      "price": 15.99,
+      "picture": "https://example.com/pilates.jpg",
+      "category": "Exercise",
+      "id": 12
+    },
+    {
+      "name": "Protein Powder",
+      "description": "Whey protein powder for muscle recovery and growth.",
+      "price": 29.99,
+      "picture": "https://example.com/protein-powder.jpg",
+      "category": "Supplements",
+      "id": 13
+    },
+    {
+      "name": "Multivitamins",
+      "description": "A daily multivitamin supplement to support overall health.",
+      "price": 14.99,
+      "picture": "https://example.com/multivitamins.jpg",
+      "category": "Supplements",
+      "id": 14
+    },
+    {
+      "name": "Fish Oil Capsules",
+      "description": "Omega-3 fish oil capsules for heart and brain health.",
+      "price": 19.99,
+      "picture": "https://example.com/fish-oil.jpg",
+      "category": "Supplements",
+      "id": 15
+    },
+    {
+      "name": "Creatine Monohydrate",
+      "description": "Creatine supplement for increased strength and endurance.",
+      "price": 12.99,
+      "picture": "https://example.com/creatine.jpg",
+      "category": "Supplements",
+      "id": 16
+    },
+    {
+      "name": "Probiotics",
+      "description": "Probiotic capsules for digestive health and gut balance.",
+      "price": 18.99,
+      "picture": "https://example.com/probiotics.jpg",
+      "category": "Supplements",
+      "id": 17
+    },
+    {
+      "name": "One Month Gym Access",
+      "description": "30 days unlimited gym access with free sauna and locker room , shower and other perks",
+      "picture": "",
+      "price": "100",
+      "category": "membership",
+      "id": 18
+    },
+    {
+      "name": "Two Months Gym Access",
+      "description": "Two moths unlimited gym access and free sauna nd shower use ",
+      "picture": "",
+      "price": "180",
+      "category": "membership",
+      "id": 19
+    }
+  ]
+}
