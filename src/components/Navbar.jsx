@@ -35,7 +35,11 @@ export default function EnableColorOnDarkAppBar() {
         <div className={style.nav_logo}>
             <h3>Logo</h3>
           </div>
+
+          
+
           <div onClick={() => navigate("/")} className={style.nav_home_page}>
+
             <h3>HomePage</h3>
           </div>
           <div onClick={() => navigate("/products")} className={style.nav_gym_service}>
