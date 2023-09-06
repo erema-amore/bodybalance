@@ -8,6 +8,7 @@ import body_weight from '../img/homePage/home_page_body_weight.svg'
 import iPhone_13 from '../img/homePage/home_page_iPhone_13.svg'
 
 
+
 const HomePage = () => {
   return (
     <div className={style.home_page_main}>

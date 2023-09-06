@@ -1,8 +1,11 @@
 import React from 'react'
+import ProductEdit from '../components/products/ProductEdit'
 
 const ProductEditPage = () => {
   return (
-    <div>ProductEditPage</div>
+    <>
+    <ProductEdit/>
+    </>
   )
 }
 

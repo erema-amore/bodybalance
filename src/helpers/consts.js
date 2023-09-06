@@ -1,9 +1,2 @@
-import React from 'react'
-
-const consts = () => {
-  return (
-    <div>consts</div>
-  )
-}
-
-export default consts
+export const ACCOUNT_API = 'http://35.239.251.89';
+export const API = 'http://localhost:8000/products'
