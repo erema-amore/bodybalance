@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getCartData, getProductsCountInCart } from '../../helpers/functions';
 import { placeTheOrder } from './cartAction';
+import { act } from 'react-dom/test-utils';
 
 export const cartSlice = createSlice({
     name: 'cart',
@@ -23,6 +24,7 @@ export const cartSlice = createSlice({
         .addCase(placeTheOrder.fulfilled, (state, action) => {
             state.loading = false;
             state.carts = action.payload.res.data;
+            console.log(action.payload.res)
         })
         .addCase(placeTheOrder.rejected, (state) => {
             state.loading = false;

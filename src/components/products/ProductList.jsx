@@ -4,8 +4,7 @@ import { getProducts } from '../../store/products/productsAction';
 import ProductItem from './ProductItem';
 import { useNavigate } from 'react-router-dom';
 import style from '../../style/productList.module.css'
-
-
+import Pagination from './Pagination'
 
 const ProductList = () => {
     const { products, loading } = useSelector(state => state.products);
@@ -27,7 +26,8 @@ const ProductList = () => {
             <div className={style.productList}>
                 {products.map(product => (
                     <ProductItem key={product.id} product={product} />
-                ))}    
+                ))} 
+                <Pagination/>   
             </div>
             </>
         ) }

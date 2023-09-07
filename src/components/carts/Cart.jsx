@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCart } from '../../store/cart/cartSlice';
 import { changeCountProductInCart, deleteProductFromCart, cleanCart } from '../../helpers/functions';
-import { placeTheOrder } from '../../store/cart/cartAction'
+import { placeTheOrder, getOneOrder } from '../../store/cart/cartAction'
 import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
@@ -11,7 +11,7 @@ const Cart = () => {
   const navigate = useNavigate();
   
   useEffect(() => {
-    dispatch(getCart());
+    dispatch(getOneOrder());
   }, []);
 
   return (
@@ -57,7 +57,7 @@ const Cart = () => {
               </table>
               <h3>Total cost: ${cart.totalCost}</h3>
               <button onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
-              <button onClick={() => { dispatch(placeTheOrder(cart));  }} >Place your order</button>
+              <button onClick={() => {getOneOrder();  dispatch(placeTheOrder(cart)); navigate("/myorder"); cleanCart(); }} >Place your order</button>
             </>
             
           ) : (
