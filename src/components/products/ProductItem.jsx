@@ -18,23 +18,23 @@ export default function MediaCard({ product }) {
   const dispatch = useDispatch();
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia onClick={() => navigate(`/products/${id}`)}
+    <Card className={style.card} sx={{ maxWidth: 345 }}>
+      <CardMedia className={style.CardMedia} onClick={() => navigate(`/products/${id}`)}
         sx={{ height: 140 }}
         image={picture}
         title={name}
       />
-      <CardContent>
+      <CardContent className={style.cardContent}>
         <Typography onClick={() => navigate(`/products/${id}`)} gutterBottom variant="h5" component="div">
          {name}
         </Typography>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" className={style.price}>
          {price}
         </Typography>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" className={style.category}>
          {category}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" className={style.description}>
          {description}
         </Typography>
       </CardContent>

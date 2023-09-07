@@ -70,8 +70,10 @@ export default function EnableColorOnDarkAppBar() {
         </div>
         <div onClick={() => { navigate('/cart')  }} >
           <>
+          <div className={style.cart_block}>
           <h3>Cart</h3> 
           <h3>{ countProductsInCart }</h3>
+          </div>
           </>
         </div>
           </div>

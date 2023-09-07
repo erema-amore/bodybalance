@@ -22,14 +22,14 @@ const ProductList = () => {
         { loading ? (
             <h3 className={style.productList__loading}>Loading...</h3>
         ) : (
-            <>
+            <div className={style.productList_main}>
             <button className={style.productList__btn_addNewProd} onClick={() => {navigate('/product-create'); }} >ADD NEW PRODUCT</button>
             <div className={style.productList}>
                 {products.map(product => (
                     <ProductItem key={product.id} product={product} />
                 ))}    
             </div>
-            </>
+            </div>
         ) }
     </>
   )
