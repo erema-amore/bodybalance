@@ -6,6 +6,19 @@ import cherry from '../img/homePage/home_page_cherry.svg'
 import meat_grinder from '../img/homePage/home_page_meat_grinder.png'
 import body_weight from '../img/homePage/home_page_body_weight.svg'
 import iPhone_13 from '../img/homePage/home_page_iPhone_13.svg'
+import woman from '../img/homePage/home_page_block_5_photo.svg'
+import left from '../img/homePage/home_page_block_5_left.svg'
+import right from '../img/homePage/home_page_block_5_right.svg'
+import envelope from '../img/homePage/home_page_block_6_envelope.svg'
+import phone from '../img/homePage/home_page_block_6_phone.svg'
+import whatsapp from '../img/homePage/home_page_block_6_whatsapp.svg'
+import you_tube from '../img/homePage/home_page_block_6_you_tube.svg'
+import facebook from '../img/homePage/home_page_block_6_facebook.svg'
+import instagram from '../img/homePage/home_page_block_6_instagram.svg'
+import tik_tok from '../img/homePage/home_page_block_6_tik_tok.svg'
+import twitter from '../img/homePage/home_page_block_6_twitter.svg'
+import block6_main_photo from '../img/homePage/home_page_block_6_main_photo.svg'
+import map from '../img/homePage/home_page_block_6_map.svg'
 
 
 
@@ -115,24 +128,127 @@ const HomePage = () => {
         </div>
 
         <div className={style.home_page_block_4_list1}>
-          <p className={style.home_page_block_4_list1_text1}></p>
-          <p className={style.home_page_block_4_list1_text2}></p>
+          <p className={style.home_page_block_4_list1_text1}>20</p>
+          <p className={style.home_page_block_4_list1_text2}>месяцев - сколько
+ существует проект “SB”</p>
         </div>
 
         <div className={style.home_page_block_4_list1}>
-          <p className={style.home_page_block_4_list1_text1}></p>
-          <p className={style.home_page_block_4_list1_text2}></p>
+          <p className={style.home_page_block_4_list1_text1}>500 +</p>
+          <p className={style.home_page_block_4_list1_text2}>килограмм в общем 
+потеряно у всех учасников </p>
         </div>
 
         <div className={style.home_page_block_4_list1}>
-          <p className={style.home_page_block_4_list1_text1}></p>
-          <p className={style.home_page_block_4_list1_text2}></p>
+          <p className={style.home_page_block_4_list1_text1}>15</p>
+          <p className={style.home_page_block_4_list1_text2}>серцифицированых специалистов на связи с вами</p>
+        </div>
+
+      </div>
+
+      <div className={style.home_page_block_5}>
+        <div className={style.home_page_block_5_left}>
+          <img src={left} alt="" />
+        </div>
+
+        <div className={style.home_page_block_5_list}>
+
+          <div className={style.home_page_block_5_list_img}>
+            <img src={woman} alt="" />
+          </div>
+          <div className={style.home_page_block_5_list_text}>
+            <p className={style.home_page_block_5_list_text1}>После родов долго и безуспешно пыталась <br /> вернуть себя в форму, и получилось это на <br />проекте “SB”. Результат на сегодня  - минус 10кг.</p>
+            <p className={style.home_page_block_5_list_text2}>Анна, 24 года. Киев</p>
+          </div>
+
+        </div>
+
+        <div className={style.home_page_block_5_right}>
+          <img src={right} alt="" />
+        </div>
+      </div>
+
+      <div className={style.home_page_block_6}>
+        <div className={style.home_page_block_6_list1}>
+
+        <div className={style.home_page_block_6_list1_1}>
+          <p>Есть вопросы?</p>
+        </div>
+        
+        <div className={style.home_page_block_6_list1_2}>
+          <p>Оставьте нам сообщение, и мы <br /> сразу свяжемся с вами!</p>
+        </div>
+
+        <div className={style.home_page_block_6_list1_3}>
+        <input type="search" placeholder="Введите имя"/>
+        </div>
+        <div className={style.home_page_block_6_list1_4}>
+        <input type="search" placeholder="Введите телефон"/>
+        </div>
+        <div className={style.home_page_block_6_list1_5}>
+        <input type="search" placeholder="Введите e-mail"/>
+        </div>
+        <div className={style.home_page_block_6_list1_6}>
+        <input type="search" placeholder="Введите сообщение"/>
+        </div>
+        <div className={style.home_page_block_6_list1_7}>
+          <button className={style.home_page_block_6_list1_7_btn}>ОТПРАВИТЬ СООБЩЕНИЕ</button>
+        </div>
+        
+        </div>
+
+
+        <div className={style.home_page_block_6_list2}>
+          {/* <img src={block6_main_photo} alt="" /> */}
+
+          <div className={style.home_page_block_6_list2}>
+
+        <div className={style.home_page_block_6_list2_1}>
+          <p>Как с нами связаться?</p>
+        </div>
+        <div className={style.home_page_block_6_list2_2}>
+          <img src={envelope} alt="" />
+          <p className={style.home_page_block_6_list2_2_text1}>shyndornadia@gmail.com</p>
+        </div>
+        <div className={style.home_page_block_6_list2_3}>
+          <img src={phone} alt="" />
+          <p className={style.home_page_block_6_list2_2_text1}>+380 (99) 642 - 48 - 72</p>
+        </div>
+        <div className={style.home_page_block_6_list2_4}>
+          <p className={style.home_page_block_6_list2_2_text1}>Fax: 123 4567890</p>
+        </div>
+        <div className={style.home_page_block_6_list2_5}>
+          <p className={style.home_page_block_6_list2_2_text1}>Делитесь впечетлениями о <br />  нашем клебе и успехам с <br /> друзьями в социальных сетях</p>
+        </div>
+        <div className={style.home_page_block_6_list2_6}>
+          <img src={whatsapp} alt="" />
+          <img src={you_tube} alt="" />
+          <img src={facebook} alt="" />
+          <img src={instagram} alt="" />
+          <img src={tik_tok} alt="" />
+          <img src={twitter} alt="" />
+          </div>
+        </div>
+        </div>
+
+        
+
+
+        <div className={style.home_page_block_6_list3}>
+        <div className={style.home_page_block_6_list3_text}>
+          <p>Найти нас на карте:</p>
+        </div>
+        <div className={style.home_page_block_6_list3_photo}>
+          <img src={map} alt="" />
+        </div>
         </div>
 
       </div>
       
-    </div>
 
+
+      
+    </div>
   </div>
   )
 }
