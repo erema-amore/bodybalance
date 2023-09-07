@@ -1,9 +1,34 @@
-import React from 'react'
+import { createSlice } from '@reduxjs/toolkit';
+import { getCartData, getProductsCountInCart } from '../../helpers/functions';
+import { placeTheOrder } from './cartAction';
 
-const cartSlice = () => {
-  return (
-    <div>cartSlice</div>
-  )
-}
+export const cartSlice = createSlice({
+    name: 'cart',
+    initialState: {
+        cart: null,
+        countProductsInCart: 0,
+        carts: []
+    },
+    reducers: {
+        getCart: (state) => {
+            state.cart = getCartData();
+            state.countProductsInCart = getProductsCountInCart();
+        }
+    },
+    extraReducers: (builder) => {
+        builder
+        .addCase(placeTheOrder.pending, (state) => {
+            state.loading = true;
+        })
+        .addCase(placeTheOrder.fulfilled, (state, action) => {
+            state.loading = false;
+            state.carts = action.payload.res.data;
+        })
+        .addCase(placeTheOrder.rejected, (state) => {
+            state.loading = false;
+        })
+    }
+});
 
-export default cartSlice
+export const { getCart } = cartSlice.actions;
+export default cartSlice.reducer;

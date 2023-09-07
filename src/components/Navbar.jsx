@@ -6,7 +6,7 @@ import style from '../style/navbar.module.css'
 import { useNavigate } from 'react-router-dom';
 import { logout, checkUserLogin } from '../helpers/functions';
 import { getProducts } from '../store/products/productsAction'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { updateToken } from '../helpers/functions';
 
 const darkTheme = createTheme({
@@ -21,6 +21,8 @@ const darkTheme = createTheme({
 export default function EnableColorOnDarkAppBar() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
+  const { countProductsInCart } = useSelector(state => state.cart);
 
   useEffect(() => {
     updateToken();
@@ -65,6 +67,12 @@ export default function EnableColorOnDarkAppBar() {
             </div>
         </>
           )}
+        </div>
+        <div onClick={() => { navigate('/cart')  }} >
+          <>
+          <h3>Cart</h3> 
+          <h3>{ countProductsInCart }</h3>
+          </>
         </div>
           </div>
 

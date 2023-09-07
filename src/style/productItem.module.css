@@ -1,0 +1,14 @@
+* {
+    background-color: gray;
+}
+.productItem__btn {
+    position: absolute;
+    background:  white;
+    color: black;
+    text-decoration: black;
+   
+}
+
+.productItem__btn_addToCart {
+    text-decoration: black;
+}

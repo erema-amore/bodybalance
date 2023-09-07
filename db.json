@@ -1,17 +1,9 @@
 {
   "products": [
     {
-      "name": "Dumbbells Set",
-      "description": "A set of adjustable dumbbells for strength training.",
-      "price": 89.99,
-      "picture": "https://example.com/dumbbells.jpg",
-      "category": "Equipment",
-      "id": 1
-    },
-    {
-      "name": "Treadmill",
+      "name": "Treadmill 2023",
       "description": "A high-quality treadmill for cardio workouts.",
-      "price": 799.99,
+      "price": "1000",
       "picture": "https://example.com/treadmill.jpg",
       "category": "Equipment",
       "id": 2
@@ -151,6 +143,57 @@
       "price": "180",
       "category": "membership",
       "id": 19
+    },
+    {
+      "name": "Three Months Gym Access",
+      "description": "3 moths access to gym and facilities ",
+      "picture": "",
+      "price": "240",
+      "category": "membership",
+      "id": 20
+    },
+    {
+      "name": "One year mem",
+      "description": "jdejCJKAN",
+      "picture": "",
+      "price": "1000",
+      "category": "membership",
+      "id": 21
+    }
+  ],
+  "carts": [
+    {
+      "cart": {
+        "user": "mr",
+        "totalCost": 1349.99,
+        "products": [
+          {
+            "count": 1,
+            "totalCost": 349.99,
+            "productItem": {
+              "name": "Exercise Bike",
+              "description": "An indoor exercise bike for cardio and leg workouts.",
+              "price": 349.99,
+              "picture": "https://example.com/exercise-bike.jpg",
+              "category": "Equipment",
+              "id": 4
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 1000,
+            "productItem": {
+              "name": "Treadmill 2023",
+              "description": "A high-quality treadmill for cardio workouts.",
+              "price": "1000",
+              "picture": "https://example.com/treadmill.jpg",
+              "category": "Equipment",
+              "id": 2
+            }
+          }
+        ]
+      },
+      "id": 1
     }
   ]
 }

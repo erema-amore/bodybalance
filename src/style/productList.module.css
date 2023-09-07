@@ -1,0 +1,20 @@
+* {
+    color: blue;
+}
+
+.productList__loading {
+color: azure;
+}
+
+.productList__btn_addNewProd {
+    background-color: yellow;
+    color: blue;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    
+}
