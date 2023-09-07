@@ -42,28 +42,28 @@ export default function EnableColorOnDarkAppBar() {
 
           <div onClick={() => navigate("/")} className={style.nav_home_page}>
 
-            <h3>HomePage</h3>
+            <h3>Home</h3>
           </div>
           <div onClick={() => navigate("/products")} className={style.nav_gym_service}>
             <h3>Services & Shop</h3>
           </div>
           <div className={style.nav_search}>
             <input placeholder='Search' />
-            <button>Search</button>
+            <button className={style.nav_search_btn}>Search</button>
           </div>
 
         <div>
         {checkUserLogin() ? (
           <div className={style.nav_logout}>
-          <button onClick={() => { logout(); navigate('/') }} >Logout</button>
+          <button className={style.nav_logout_btn} onClick={() => { logout(); navigate('/') }} >Logout</button>
         </div>
         ) : (
           <>
            <div className={style.nav_login}>
-            <button onClick={() => navigate('login')} >Login</button>
+            <button className={style.nav_login_btn} onClick={() => navigate('login')} >Login</button>
             </div>
           <div className={style.nav_registration}>
-            <button onClick={() => navigate('/register')} >Registration</button>
+            <button className={style.nav_registration_btn} onClick={() => navigate('/register')} >Registration</button>
             </div>
         </>
           )}
