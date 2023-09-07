@@ -1,0 +1,46 @@
+
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: 
+    #0D0D0E;
+  }
+  
+  .formContainer {
+    text-align: center;
+  }
+  
+  .errorContainer {
+    text-align: center;
+  }
+  
+  .errorText {
+    color: red;
+  }
+  
+  .errorButton {
+    margin-top: 10px;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .registerButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FA3A10;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  
