@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getProducts } from './productsAction';
+import { getOneProduct, getProducts } from './productsAction';
 
 const productsSlice = createSlice({
     name: 'products',
@@ -7,10 +7,25 @@ const productsSlice = createSlice({
         loading: false,
         products: [],
         oneProduct: null,
+        currentPage: 1,
+        totalPages: 1,
+        currentCategory: '',
+        search: ''
     },
     reducers: {
         clearOneProductState: (state) => {
             state.oneProduct = null;
+        },
+        changePage: (state, action) => {
+            state.currentPage = action.payload.page;
+        },
+        changeCategory: (state, action) => {
+            state.currentCategory = action.payload.category;
+            state.currentPage = 1;
+        },
+        changeSearchVal: (state, action) => {
+            state.search = action.payload.search;
+            state.currentPage = 1;
         }
     },
     extraReducers: (builder) => {
@@ -21,11 +36,21 @@ const productsSlice = createSlice({
         .addCase(getProducts.fulfilled, (state, action) => {
             state.loading = false;
             state.products = action.payload.res.data;
+            state.totalPages = action.payload.totalPages;
         })
         .addCase(getProducts.rejected, (state) => {
             state.loading = false;
         })
-        
+        .addCase(getOneProduct.pending, (state) => {
+            state.loading = true;
+        })
+        .addCase(getOneProduct.fulfilled, (state, action) => {
+            state.loading = false;
+            state.oneProduct = action.payload.data;
+        })
+        .addCase(getOneProduct.rejected, (state) => {
+            state.loading = false;
+        })
     }
 });
 

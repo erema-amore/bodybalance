@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../../store/products/productsAction';
 import ProductItem from './ProductItem';
 import { useNavigate } from 'react-router-dom';
+import style from '../../style/productList.module.css'
 
 
 
@@ -19,14 +20,16 @@ const ProductList = () => {
   return (
     <>
         { loading ? (
-            <h3>Loading...</h3>
+            <h3 className={style.productList__loading}>Loading...</h3>
         ) : (
-            <div>
-                <button onClick={() => {navigate('/product-create'); }} >ADD NEW PRODUCT</button>
+            <>
+            <button className={style.productList__btn_addNewProd} onClick={() => {navigate('/product-create'); }} >ADD NEW PRODUCT</button>
+            <div className={style.productList}>
                 {products.map(product => (
                     <ProductItem key={product.id} product={product} />
                 ))}    
             </div>
+            </>
         ) }
     </>
   )
