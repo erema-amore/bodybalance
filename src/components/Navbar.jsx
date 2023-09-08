@@ -4,13 +4,15 @@ import Stack from '@mui/material/Stack';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import style from '../style/navbar.module.css'
 import { useNavigate } from 'react-router-dom';
-import { logout, checkUserLogin } from '../helpers/functions';
+import { logout, checkUserLogin} from '../helpers/functions';
 import { getProducts } from '../store/products/productsAction'
 import { useDispatch, useSelector } from 'react-redux';
-import { updateToken } from '../helpers/functions';
+import { updateToken, getCategories } from '../helpers/functions';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import { changeCategory } from '../store/products/productsSlice'
+import { useState } from 'react';
 
 const darkTheme = createTheme({
   palette: {
@@ -26,9 +28,16 @@ export default function EnableColorOnDarkAppBar() {
   const dispatch = useDispatch();
 
   const { countProductsInCart } = useSelector(state => state.cart);
+  const [categories, setCategories] = useState([]);
+
+  const getCategoriesData = async () => {
+    let categories = await getCategories();
+    setCategories(categories);
+  };
 
   useEffect(() => {
     updateToken();
+    getCategoriesData();
     dispatch(getProducts());
   }, []);
 
@@ -69,7 +78,7 @@ export default function EnableColorOnDarkAppBar() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        Dashboard
+        Products Type
       </Button>
       <Menu
         id="demo-positioned-menu"
@@ -86,9 +95,16 @@ export default function EnableColorOnDarkAppBar() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={() => {  dispatch(changeCategory({ category: '' }));dispatch(getProducts()) }}>All</MenuItem>
+        <MenuItem >
+        {categories.map((category, index) => (
+          <MenuItem  key={index} onClick={() => {dispatch(changeCategory({ category })); dispatch(getProducts());
+          }}>
+          {category}
+          </MenuItem>
+        ))}
+        </MenuItem>
+        
       </Menu>
     </div>
           </div>

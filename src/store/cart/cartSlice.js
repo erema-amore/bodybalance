@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getCartData, getProductsCountInCart } from '../../helpers/functions';
 import { placeTheOrder } from './cartAction';
-import { act } from 'react-dom/test-utils';
+
 
 export const cartSlice = createSlice({
     name: 'cart',

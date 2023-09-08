@@ -38,7 +38,7 @@ const productsSlice = createSlice({
             state.products = action.payload.res.data;
             state.totalPages = action.payload.totalPages;
         })
-        .addCase(getProducts.rejected, (state) => {
+        .addCase(getProducts.rejected, (state) => { 
             state.loading = false;
         })
         .addCase(getOneProduct.pending, (state) => {

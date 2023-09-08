@@ -104,7 +104,7 @@ export const getProductsCountInCart = () => {
 
 export const getCategories = async () => {
     const { data } = await axios.get(`${API}`);
-    const uniqueCategories = new Set(data.map(product => product.type));
+    const uniqueCategories = new Set(data.map(product => product.category));
     const categories = [];
     for(let i of uniqueCategories) {
         categories.push(i);
