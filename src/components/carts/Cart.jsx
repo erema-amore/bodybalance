@@ -16,6 +16,7 @@ const Cart = () => {
   }, []);
 
   return (
+    <div className={style.cart_main}>
     <div className={style.cartContainer}>
       {cart && (
         <>
@@ -38,7 +39,7 @@ const Cart = () => {
                       <td>{product.productItem.name}</td>
                       <td><img src={product.productItem.picture} alt="error:(" width="50" height="50" /></td>
                       <td>{product.productItem.price}</td>
-                      <td>
+                      <td className={style.cart_count}>
                         <input
                           type="number"
                           value={product.count}
@@ -61,8 +62,8 @@ const Cart = () => {
               </table>
 
               <h3>Total cost: ${cart.totalCost}</h3>
-              <button onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
-              <button onClick={() => {getOneOrder();  dispatch(placeTheOrder(cart)); navigate("/myorder"); cleanCart(); }} >Place your order</button>
+              <button className={style.cleanCartButton} onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
+              <button className={style.placeOrderButton} onClick={() => {getOneOrder();  dispatch(placeTheOrder(cart)); navigate("/myorder"); cleanCart(); }} >Place your order</button>
 
             </>
           ) : (
@@ -70,6 +71,7 @@ const Cart = () => {
           )}
         </>
       )}
+    </div>
     </div>
   )
 }

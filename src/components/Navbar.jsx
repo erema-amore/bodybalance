@@ -56,22 +56,22 @@ export default function EnableColorOnDarkAppBar() {
       <ThemeProvider theme={darkTheme}>
         <AppBar position="static" color="primary">
           <div className={style.nav_main}>
-        <div className={style.nav_logo}>
-            <h3>Logo</h3>
+        <div onClick={() => navigate("/")} className={style.nav_logo}>
+            <button className={style.nav_logo_btn}>Logo</button>
           </div>
 
           
 
           <div onClick={() => navigate("/")} className={style.nav_home_page}>
 
-            <h3>Home</h3>
+            <button className={style.nav_home_btn}>Home</button>
           </div>
           <div onClick={() => navigate("/products")} className={style.nav_gym_service}>
-            <h3>Services & Shop</h3>
+            <button className={style.nav_services_btn}>Services & Shop</button>
           </div>
           <div>
           <div>
-      <Button
+      <Button className={style.nav_dashboard_btn}
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
