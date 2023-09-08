@@ -9,12 +9,7 @@ const Footer = () => {
         <div className={style.footerLogo}>
           <h3>Logo</h3>
         </div>
-        <div className={style.footerLinks}>
-          {/* Ссылка */}
-          <h3>Ссылка</h3>
-          <h3>Ссылка</h3>
-          {/* Ссылки */}
-        </div>
+        
         <div className={style.footerContact}>
           
           <p>адрес: г. Бишкек прт Мира 59</p>

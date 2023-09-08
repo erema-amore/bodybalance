@@ -25,10 +25,10 @@ export default function MediaCard({ product }) {
         title={name}
       />
       <CardContent className={style.cardContent}>
-        <Typography onClick={() => navigate(`/products/${id}`)} gutterBottom variant="h5" component="div">
+        <Typography className={style.cardContent_txt_1} onClick={() => navigate(`/products/${id}`)} gutterBottom variant="h5" component="div">
          {name}
         </Typography>
-        <Typography gutterBottom variant="h5" component="div" className={style.price}>
+        <Typography  gutterBottom variant="h5" component="div" className={style.price}>
          {price}
         </Typography>
         <Typography gutterBottom variant="h5" component="div" className={style.category}>

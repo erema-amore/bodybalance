@@ -32,6 +32,9 @@
   }
   
   .footerContact {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
     
   }
   
