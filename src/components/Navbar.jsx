@@ -61,6 +61,7 @@ export default function EnableColorOnDarkAppBar() {
             <h3>Services & Shop</h3>
           </div>
           <div>
+          <div>
       <Button
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
@@ -90,12 +91,11 @@ export default function EnableColorOnDarkAppBar() {
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
     </div>
-
+          </div>
           <div className={style.nav_search}>
             <input placeholder='Search' />
             <button>Search</button>
           </div>
-
         <div>
         {checkUserLogin() ? (
           <div className={style.nav_logout}>

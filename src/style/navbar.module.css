@@ -4,3 +4,8 @@
     align-items: center;
     gap: 20px;
 }
+
+#demo-positioned-button {
+    color: white;
+    background-color: aqua;
+}
