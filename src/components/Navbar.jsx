@@ -8,6 +8,9 @@ import { logout, checkUserLogin } from '../helpers/functions';
 import { getProducts } from '../store/products/productsAction'
 import { useDispatch, useSelector } from 'react-redux';
 import { updateToken } from '../helpers/functions';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
 const darkTheme = createTheme({
   palette: {
@@ -29,6 +32,16 @@ export default function EnableColorOnDarkAppBar() {
     dispatch(getProducts());
   }, []);
 
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+
   return (
     <Stack spacing={2} sx={{ flexGrow: 1 }}>
       <ThemeProvider theme={darkTheme}>
@@ -47,15 +60,47 @@ export default function EnableColorOnDarkAppBar() {
           <div onClick={() => navigate("/products")} className={style.nav_gym_service}>
             <h3>Services & Shop</h3>
           </div>
+          <div>
+          <div>
+      <Button
+        id="demo-positioned-button"
+        aria-controls={open ? 'demo-positioned-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? 'true' : undefined}
+        onClick={handleClick}
+      >
+        Dashboard
+      </Button>
+      <Menu
+        id="demo-positioned-menu"
+        aria-labelledby="demo-positioned-button"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
+        }}
+      >
+        <MenuItem onClick={handleClose}>Profile</MenuItem>
+        <MenuItem onClick={handleClose}>My account</MenuItem>
+        <MenuItem onClick={handleClose}>Logout</MenuItem>
+      </Menu>
+    </div>
+          </div>
           <div className={style.nav_search}>
             <input placeholder='Search' />
             <button className={style.nav_search_btn}>Search</button>
           </div>
-
         <div>
         {checkUserLogin() ? (
           <div className={style.nav_logout}>
-          <button className={style.nav_logout_btn} onClick={() => { logout(); navigate('/') }} >Logout</button>
+          <button onClick={() => { logout(); navigate('/') }} >Logout</button>
+          <button onClick={() => {navigate('/myorder') }} >My Orders</button>
         </div>
         ) : (
           <>

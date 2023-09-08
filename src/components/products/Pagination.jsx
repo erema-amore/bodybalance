@@ -1,9 +1,22 @@
-import React from 'react'
+import * as React from 'react';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
+import { useDispatch, useSelector } from 'react-redux';
+import { getProducts } from '../../store/products/productsAction';
+import { changePage } from '../../store/products/productsSlice'
 
-const Pagination = () => {
+
+export default function PaginationControlled() {
+  const {currentPage, totalPages } = useSelector(state => state.products) 
+  const dispatch = useDispatch()
+  const handleChange = (event, value) => {
+    dispatch(changePage({page: value}))
+    dispatch(getProducts())
+  };
+
   return (
-    <div>Pagination</div>
-  )
+    <Stack spacing={2}>
+      <Pagination count={totalPages} page={currentPage} onChange={handleChange} />
+    </Stack>
+  );
 }
-
-export default Pagination

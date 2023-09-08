@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCart } from '../../store/cart/cartSlice';
 import { changeCountProductInCart, deleteProductFromCart, cleanCart } from '../../helpers/functions';
-import { placeTheOrder } from '../../store/cart/cartAction'
+import { placeTheOrder, getOneOrder } from '../../store/cart/cartAction'
 import { useNavigate } from 'react-router-dom';
 import style from '../../style/cart.module.css'
 
@@ -12,7 +12,7 @@ const Cart = () => {
   const navigate = useNavigate();
   
   useEffect(() => {
-    dispatch(getCart());
+    dispatch(getOneOrder());
   }, []);
 
   return (
@@ -59,11 +59,11 @@ const Cart = () => {
                   ))}
                 </tbody>
               </table>
-              <div className={style.totalCost}>Total cost: ${cart.totalCost}</div>
-              <div className={style.actionButtons}>
-                <button className={style.cleanCartButton} onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
-                <button className={style.placeOrderButton} onClick={() => { dispatch(placeTheOrder(cart));  }}>Place your order</button>
-              </div>
+
+              <h3>Total cost: ${cart.totalCost}</h3>
+              <button onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
+              <button onClick={() => {getOneOrder();  dispatch(placeTheOrder(cart)); navigate("/myorder"); cleanCart(); }} >Place your order</button>
+
             </>
           ) : (
             <div className={style.emptyCartMessage}>Cart is empty!</div>
