@@ -13,15 +13,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-<<<<<<< HEAD
-    gap: 20px;
-}
-
-#demo-positioned-button {
-    color: white;
-    background-color: aqua;
-}
-=======
     
 }
 
@@ -65,4 +56,3 @@
 
 }
 
->>>>>>> 9d09de7cf4af4bda7dba41a8908aa80161101d3d

@@ -99,12 +99,8 @@ export default function EnableColorOnDarkAppBar() {
         <div>
         {checkUserLogin() ? (
           <div className={style.nav_logout}>
-<<<<<<< HEAD
           <button onClick={() => { logout(); navigate('/') }} >Logout</button>
           <button onClick={() => {navigate('/myorder') }} >My Orders</button>
-=======
-          <button className={style.nav_logout_btn} onClick={() => { logout(); navigate('/') }} >Logout</button>
->>>>>>> 9d09de7cf4af4bda7dba41a8908aa80161101d3d
         </div>
         ) : (
           <>
