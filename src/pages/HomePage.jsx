@@ -19,10 +19,12 @@ import tik_tok from '../img/homePage/home_page_block_6_tik_tok.svg'
 import twitter from '../img/homePage/home_page_block_6_twitter.svg'
 import block6_main_photo from '../img/homePage/home_page_block_6_main_photo.svg'
 import map from '../img/homePage/home_page_block_6_map.svg'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const HomePage = () => {
+  const navigate = useNavigate()
   return (
     <div className={style.home_page_main}>
 
@@ -43,7 +45,7 @@ const HomePage = () => {
             </div>
 
             <div className={style.home_page_block_1_text_4}>
-              <button className={style.home_page_block_1_text_btn}>УЗНАТЬ БОЛЬШЕ</button>
+              <button className={style.home_page_block_1_text_btn} onClick={() => navigate('/slim-body')} >УЗНАТЬ БОЛЬШЕ</button>
             </div>
 
           </div>
@@ -208,14 +210,14 @@ const HomePage = () => {
         </div>
         <div className={style.home_page_block_6_list2_2}>
           <img src={envelope} alt="" />
-          <p className={style.home_page_block_6_list2_2_text1}>shyndornadia@gmail.com</p>
+          <p className={style.home_page_block_6_list2_2_text1}>body-balance@gmail.com</p>
         </div>
         <div className={style.home_page_block_6_list2_3}>
           <img src={phone} alt="" />
-          <p className={style.home_page_block_6_list2_2_text1}>+380 (99) 642 - 48 - 72</p>
+          <p className={style.home_page_block_6_list2_2_text1}>+(996) 555 - 99 - 88 - 00</p>
         </div>
         <div className={style.home_page_block_6_list2_4}>
-          <p className={style.home_page_block_6_list2_2_text1}>Fax: 123 4567890</p>
+          <p className={style.home_page_block_6_list2_2_text1}>Fax: (996) 312 - 88 - 77 - 66</p>
         </div>
         <div className={style.home_page_block_6_list2_5}>
           <p className={style.home_page_block_6_list2_2_text1}>Делитесь впечетлениями о <br />  нашем клебе и успехам с <br /> друзьями в социальных сетях</p>
