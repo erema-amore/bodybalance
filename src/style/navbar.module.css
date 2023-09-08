@@ -56,3 +56,14 @@
 
 }
 
+
+.cart_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FA3A10;
+
+}
