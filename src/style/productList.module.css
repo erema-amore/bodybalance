@@ -1,14 +1,32 @@
-* {
+/* * {
     color: blue;
-}
+} */
+
+
+
+
 
 .productList__loading {
 color: azure;
+
+
+}
+
+.productList_main {
+    background-color: 
+    #0D0D0E;
+
 }
 
 .productList__btn_addNewProd {
-    background-color: yellow;
-    color: blue;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FA3A10;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    margin: 20px;
+    
 }
 
 .productList {

@@ -9,6 +9,7 @@ import ProductEditPage from '../pages/ProductEditPage'
 import ProductCreatePage from '../pages/ProductCreatePage'
 import CartPage from '../pages/CartPage'
 import MyOrderPage from '../pages/MyOrderPage'
+import SlimBody from '../pages/SlimBody'
 
 
 const MainRoutes = () => {
@@ -58,6 +59,11 @@ const ROUTES = [
     id: 9,
     path: "/myorder",
     element: <MyOrderPage/>
+  },
+  {
+    id: 10,
+    path: "/slim-body",
+    element: <SlimBody/>
   }
 
 ]
