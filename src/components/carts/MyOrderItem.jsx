@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MyOrderItem = ({cart}) => {
-    
+    console.log(cart);
   return (
     <div>
     {cart && (
