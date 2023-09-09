@@ -22,10 +22,12 @@ color: azure;
     width: 200px;
     height: 40px;
     border-radius: 8px;
-    background: #0D0D0E;;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     margin: 20px;
+    cursor: pointer;
     
 }
 

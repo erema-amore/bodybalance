@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../../store/products/productsAction';
 import { changePage } from '../../store/products/productsSlice'
+import style from '../../style/pagination.module.css'
 
 
 export default function PaginationControlled() {
@@ -16,7 +17,7 @@ export default function PaginationControlled() {
 
   return (
     <Stack spacing={2}>
-      <Pagination count={totalPages} page={currentPage} onChange={handleChange} />
+      <Pagination className={style.pagination}  count={totalPages} page={currentPage} onChange={handleChange} />
     </Stack>
   );
 }
