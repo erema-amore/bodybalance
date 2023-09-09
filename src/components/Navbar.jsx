@@ -11,7 +11,7 @@ import { updateToken, getCategories } from '../helpers/functions';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { changeCategory } from '../store/products/productsSlice'
+import { changeCategory, changeSearchVal } from '../store/products/productsSlice'
 import { useState } from 'react';
 
 const darkTheme = createTheme({
@@ -29,6 +29,7 @@ export default function EnableColorOnDarkAppBar() {
 
   const { countProductsInCart } = useSelector(state => state.cart);
   const [categories, setCategories] = useState([]);
+  const [search, setSearch] = useState('');
 
   const getCategoriesData = async () => {
     let categories = await getCategories();
@@ -116,8 +117,15 @@ export default function EnableColorOnDarkAppBar() {
     </div>
           </div>
           <div className={style.nav_search}>
-            <input placeholder='Search' />
-            <button className={style.nav_search_btn}>Search</button>
+          <form onSubmit={(e) => {
+              e.preventDefault();
+              dispatch(changeSearchVal({ search }));
+              dispatch(getProducts());
+            }}>
+              <input type="text" onChange={(e) => setSearch(e.target.value)}/>
+              <button className={style.nav_search_btn} type="submit">Search</button>
+            </form>
+        
           </div>
         <div>
         {checkUserLogin() ? (
