@@ -161,5 +161,72 @@
       "id": 21
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "cart": {
+        "user": "mr",
+        "totalCost": 1019.99,
+        "products": [
+          {
+            "count": 1,
+            "totalCost": 1000,
+            "productItem": {
+              "name": "Treadmill 2023",
+              "description": "A high-quality treadmill for cardio workouts.",
+              "price": "1000",
+              "picture": "https://example.com/treadmill.jpg",
+              "category": "Equipment",
+              "id": 2
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 19.99,
+            "productItem": {
+              "name": "Yoga Mat",
+              "description": "A non-slip yoga mat for comfortable practice.",
+              "price": 19.99,
+              "picture": "https://example.com/yoga-mat.jpg",
+              "category": "Equipment",
+              "id": 3
+            }
+          }
+        ]
+      },
+      "id": 1
+    },
+    {
+      "cart": {
+        "user": "w",
+        "totalCost": 280,
+        "products": [
+          {
+            "count": 1,
+            "totalCost": 100,
+            "productItem": {
+              "name": "One Month Gym Access",
+              "description": "30 days unlimited gym access with free sauna and locker room , shower and other perks",
+              "picture": "",
+              "price": "100",
+              "category": "membership",
+              "id": 18
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 180,
+            "productItem": {
+              "name": "Two Months Gym Access",
+              "description": "Two moths unlimited gym access and free sauna nd shower use ",
+              "picture": "",
+              "price": "180",
+              "category": "membership",
+              "id": 19
+            }
+          }
+        ]
+      },
+      "id": 2
+    }
+  ]
 }
