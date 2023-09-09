@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding: 30px 600px;
+    height: 100vh;
 }
 
 
@@ -15,6 +17,7 @@
     font-size: 25px;
     Line-height: 17.07px;
     color: #FFFFFF;
+    margin: 20px 0;
    
 
 }

@@ -20,13 +20,21 @@
 }
 
 
+.nav_main_list {
+    display: flex;
+    gap: 10px;
+}
+
+
 .nav_logo_btn {
     width: 60px;
     height: 30px;
     border-radius: 5px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -36,9 +44,11 @@
     width: 60px;
     height: 30px;
     border-radius: 5px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -46,29 +56,35 @@
     width: 120px;
     height: 30px;
     border-radius: 5px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
 .nav_dashboard_btn {
-    width: 130px;
+    width: 150px;
     height: 30px;
     border-radius: 5px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
 .nav_search_btn {
     width: 100px;
-    height: 25px;
+    height: 30px;
     border-radius: 8px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -76,9 +92,11 @@
     width: 100px;
     height: 25px;
     border-radius: 8px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -86,9 +104,11 @@
     width: 100px;
     height: 25px;
     border-radius: 8px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -96,9 +116,23 @@
     width: 100px;
     height: 20px;
     border-radius: 8px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.nav_myOrder_btn {
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -110,6 +144,8 @@
     width: 60px;
     height: 50px;
     border-radius: 8px;
-    background: #0D0D0E;
+    /* background: #0D0D0E; */
+    background: #FA3A10;
+    cursor: pointer;
 
 }

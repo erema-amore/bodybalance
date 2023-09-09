@@ -55,7 +55,10 @@ export default function EnableColorOnDarkAppBar() {
     <Stack spacing={2} sx={{ flexGrow: 1 }}>
       <ThemeProvider theme={darkTheme}>
         <AppBar position="static" color="primary">
+
+          
           <div className={style.nav_main}>
+          <div className={style.nav_main_list}>
         <div onClick={() => navigate("/")} className={style.nav_logo}>
             <button className={style.nav_logo_btn}>Logo</button>
           </div>
@@ -106,6 +109,10 @@ export default function EnableColorOnDarkAppBar() {
         </MenuItem>
         
       </Menu>
+      </div>
+
+
+
     </div>
           </div>
           <div className={style.nav_search}>
@@ -115,8 +122,8 @@ export default function EnableColorOnDarkAppBar() {
         <div>
         {checkUserLogin() ? (
           <div className={style.nav_logout}>
-          <button onClick={() => { logout(); navigate('/') }} >Logout</button>
-          <button onClick={() => {navigate('/myorder') }} >My Orders</button>
+          <button className={style.nav_logout_btn} onClick={() => { logout(); navigate('/') }} >Logout</button>
+          <button className={style.nav_myOrder_btn} onClick={() => {navigate('/myorder') }} >My Orders</button>
         </div>
         ) : (
           <>
