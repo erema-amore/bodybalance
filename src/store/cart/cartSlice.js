@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getCartData, getProductsCountInCart } from '../../helpers/functions';
-import { placeTheOrder } from './cartAction';
+import { placeTheOrder, getOrders } from './cartAction';
 
 
 export const cartSlice = createSlice({
@@ -8,7 +8,7 @@ export const cartSlice = createSlice({
     initialState: {
         cart: null,
         countProductsInCart: 0,
-        carts: []
+        orders: []
     },
     reducers: {
         getCart: (state) => {
@@ -23,11 +23,12 @@ export const cartSlice = createSlice({
         })
         .addCase(placeTheOrder.fulfilled, (state, action) => {
             state.loading = false;
-            state.carts = action.payload.res.data;
-            console.log(action.payload.res)
         })
         .addCase(placeTheOrder.rejected, (state) => {
             state.loading = false;
+        })
+        .addCase(getOrders.fulfilled, (state, action) => {
+            state.orders = action.payload;
         })
     }
 });
