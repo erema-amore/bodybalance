@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.ProductDetails_main {
+    background-color:  #0D0D0E;
+    height: 100vh;
+
+}
+
+
+.productDetailsContainer {
+    text-align: center;
+    padding-top: 50px;
+    
+    
+  }
+  
+  .productImage {
+    max-width: 400px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  .productName {
+    font-size: 24px;
+    font-weight: bold;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .productPrice {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .productDescription {
+    font-size: 16px;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+    height: 400px;
+  }
+  
+
+
+
+
+
+
+
+  @media (max-width: 320px) {
+
+    .ProductDetails_main {
+        background-color:  #0D0D0E;
+        height: 140vh;
+    
+    }
+    
+    
+    .productDetailsContainer {
+        text-align: center;
+        padding-top: 50px;
+        
+        
+      }
+      
+      .productImage {
+        max-width: 320px;
+        max-height: 200px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+      }
+      
+      .productName {
+        font-size: 24px;
+        font-weight: bold;
+        color: aqua;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .productPrice {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: aqua;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .productDescription {
+        font-size: 16px;
+        color: aqua;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+
+  }

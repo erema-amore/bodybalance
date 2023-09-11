@@ -45,8 +45,8 @@ const Login = () => {
                     ) : (
                         <>
                             <div className={style.loginContainer}>
-                                <div className={style.formContainer}></div>
-                                <div>
+                                <div className={style.formContainer}>
+                                <div className={style.formContainer_main}>
                                     <div className={style.inputMain}>
                                         <input
                                             className={style.inputField}
@@ -61,6 +61,7 @@ const Login = () => {
                                             onChange={(e) => setUser({ ...user, password: e.target.value, })}
                                         />
                                         <button className={style.loginButton} onClick={() => dispatch(loginUser({ user, navigate }))}>Login</button>
+                                    </div>
                                     </div>
                                 </div>
                             </div>

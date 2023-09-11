@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  
+  
+  
+  
+.editForm_txt_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+
+
+.editForm_txt_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+.editForm_txt_3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+
+.editForm_txt_4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+
+.editForm_txt_5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+.editForm_txt_6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 17.07px;
+    color: aqua
+
+}
+
+
+.productEdit_main {
+    background-color:  #0D0D0E;
+    height: 100vh;
+}
+
+
+
+.productEditContainer {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .editForm {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .editForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .editForm h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .editForm input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .editForm img {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 10px 0;
+  }
+  
+  .editForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FA3A10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .editForm button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+
+
+  @media (max-width: 768px) {
+
+    
+.productEdit_main {
+    background-color:  #0D0D0E;
+    height: 200vh;
+}
+
+
+
+.productEditContainer {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .editForm {
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+
+
+  /* .editForm h2 {
+    
+  } */
+  
+  /* .editForm h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: aqua;
+  } */
+  
+  .editForm input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .editForm img {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 10px 0;
+  }
+  
+  .editForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FA3A10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .editForm button:hover {
+    background-color: #0056b3;
+  }
+
+
+  }
