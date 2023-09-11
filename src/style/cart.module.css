@@ -2,7 +2,7 @@
 
 .cart_main {
   background-color:  #0D0D0E;
-  height: 100vh;
+  height: 200vh;
 }
 
 .cartContainer {
@@ -101,3 +101,153 @@
     cursor: pointer;
   }
   
+
+
+
+  @media (max-width: 1440px) {
+    .cart_main {
+      background-color:  #0D0D0E;
+      height: 300vh;
+    }
+
+  }
+
+
+
+  
+
+
+
+  @media (max-width: 320px) {
+
+    .cartTable th:nth-child(2),
+  .cartTable td:nth-child(2) {
+    display: none; 
+  }
+
+
+    .cartTable {
+      width: 300px; 
+    }
+  
+    .cartTable th,
+    .cartTable td {
+     
+      padding: 0;
+      border: none;
+    }
+
+    .cart_main p{
+      font-size: 1px;
+    }
+
+
+    
+.cart_main {
+  background-color:  #0D0D0E;
+  height: 300vh;
+}
+
+.cartContainer {
+    width: 320px;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fff;
+  }
+
+  
+
+  .cartTable_main {
+    width: 320px;
+  }
+  
+  /* .cartTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .cartTable th,
+  .cartTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  } */
+  
+  .cartTable th {
+    /* background-color: #f0f0f0; */
+  }
+  
+  .cartTable img {
+    max-width: 0px;
+    max-height: 0px;
+   
+  }
+  
+  .cartTable input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    background-color:  #0D0D0E;
+  }
+  
+  .cartTable button {
+    padding: 8px 16px;
+    font-size: 14px;
+    /* background-color: #007bff; */
+    background: #FA3A10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .cartTable button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .cleanCartButton  {
+    /* background-color: #007bff; */
+    background: #FA3A10;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cleanCartButton button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .totalCost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .emptyCartMessage {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .actionButtons {
+    margin-top: 10px;
+    
+  }
+  
+  
+  .placeOrderButton {
+    /* background-color: #007bff; */
+    background: #FA3A10;
+    width: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+  }

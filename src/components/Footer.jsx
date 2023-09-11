@@ -1,13 +1,14 @@
 
 import React from 'react';
 import style from '../style/footer.module.css'; 
+import logo from '../img/navBar/logo.png'
 
 const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.footerContent}>
         <div className={style.footerLogo}>
-          <h3>Logo</h3>
+        < img src={ logo } alt="logo" className={style.futer_logo_btn}/>
         </div>
         
         <div className={style.footerContact}>

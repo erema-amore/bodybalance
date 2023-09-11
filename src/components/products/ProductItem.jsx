@@ -19,9 +19,9 @@ export default function MediaCard({ product }) {
 
   return (
     
-    <Card className={style.card} sx={{ maxWidth: 345, background: '#181818' }}>
+    <Card className={style.card} sx={{  background: '#181818' }}>
       <CardMedia className={style.CardMedia} onClick={() => navigate(`/products/${id}`)}
-        sx={{ height: 140 }}
+        sx={{ height: 150 }}
         image={picture}
         title={name}
       />

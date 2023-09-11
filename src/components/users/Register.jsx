@@ -45,7 +45,7 @@ const Register = () => {
           ) : (
             <>
               <div className={style.formContainer}>
-                {/* Register form */}
+                
               </div>
               <div className={style.formContainer}>
                 <div className={style.inputFieldContainer}>

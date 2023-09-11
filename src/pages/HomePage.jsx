@@ -23,6 +23,11 @@ import { useNavigate } from 'react-router-dom'
 
 
 
+const handleSendMessage = () => {
+  const messageOutput = document.getElementById('messageOutput');
+  messageOutput.innerText = "Здравствуйте!                          Ваше сообщение принято!                   Мы свяжемся с вами";
+}
+
 const HomePage = () => {
   const navigate = useNavigate()
   return (
@@ -51,7 +56,7 @@ const HomePage = () => {
           </div>
 
           <div className={style.home_page_block_1_img}>
-            <img src={photo} alt="" />
+            <img className={style.home_page_block_1_img_adaptiv} src={photo} alt="" />
           </div>
 
         </div>
@@ -99,7 +104,7 @@ const HomePage = () => {
             <p className={style.home_page_block_3_list_2_text}>Кому подходит</p>
             <p className={style.home_page_block_3_list_2_text}>Уровни</p>
           </div>
-          <p className={style.home_page_block_3_list_2_text_2}>Этот проект создан для того, чтобы помоч вам прийти к желаной <br /> форме с пользой для вашего здоровья. Для каждого участника <br />будет разработан индивидуальный рацион питания, с учетом <br /> вашого распорядка дня, а так же медицинские показания. <br />  Вы научитесь есть правильние продукты в нужном количестве, в <br /> следствие чего вес будет таять без следа и без возврата. <br />
+          <p className={style.home_page_block_3_list_2_text_2}>Этот проект создан для того, чтобы помоч вам прийти к желаной <br /> форме с пользой для вашего здоровья. Для каждого участника <br />будет разработан индивидуальный рацион питания, с учетом <br /> вашого распорядка дня, а так же медицинские показания. <br /> Вы научитесь есть правильние продукты в нужном количестве, в <br /> следствие чего вес будет таять без следа и без возврата. <br />
 И для этого вам не придется голодать! </p>
 
          <p className={style.home_page_block_3_list_2_text_3}>Так же по желанию вы сможете выбрать програму тренировок, <br /> и под надзором опитных тренеров заниматься прямо дома. Ваш <br /> прогресс будет фиксироваться еженедельно в вашем профиле <br /> в личном кабинете.</p>
@@ -107,7 +112,7 @@ const HomePage = () => {
         </div>
 
         <div className={style.home_page_block_3_img}>
-          <img src={iPhone_13} alt="" />
+          <img className={style.home_page_block_3_img_adaptiv} src={iPhone_13} alt="" />
         </div>
 
 
@@ -150,7 +155,7 @@ const HomePage = () => {
 
       <div className={style.home_page_block_5}>
         <div className={style.home_page_block_5_left}>
-          <img src={left} alt="" />
+          <img className={style.home_page_block_5_left_adaptiv} src={left} alt="" />
         </div>
 
         <div className={style.home_page_block_5_list}>
@@ -166,7 +171,7 @@ const HomePage = () => {
         </div>
 
         <div className={style.home_page_block_5_right}>
-          <img src={right} alt="" />
+          <img className={style.home_page_block_5_right_adaptiv} src={right} alt="" />
         </div>
       </div>
 
@@ -182,20 +187,22 @@ const HomePage = () => {
         </div>
 
         <div className={style.home_page_block_6_list1_3}>
-        <input type="search" placeholder="Введите имя"/>
+        <input className={style.home_page_block_6_list1_input} type="search" placeholder="Введите имя"/>
         </div>
         <div className={style.home_page_block_6_list1_4}>
-        <input type="search" placeholder="Введите телефон"/>
+        <input className={style.home_page_block_6_list1_input} type="search" placeholder="Введите телефон"/>
         </div>
         <div className={style.home_page_block_6_list1_5}>
-        <input type="search" placeholder="Введите e-mail"/>
+        <input className={style.home_page_block_6_list1_input} type="search" placeholder="Введите e-mail"/>
         </div>
         <div className={style.home_page_block_6_list1_6}>
-        <input type="search" placeholder="Введите сообщение"/>
+        <input className={style.home_page_block_6_list1_input} type="search" placeholder="Введите сообщение"/>
         </div>
         <div className={style.home_page_block_6_list1_7}>
-          <button className={style.home_page_block_6_list1_7_btn}>ОТПРАВИТЬ СООБЩЕНИЕ</button>
-        </div>
+  <button className={style.home_page_block_6_list1_7_btn} onClick={handleSendMessage}>ОТПРАВИТЬ СООБЩЕНИЕ</button>
+</div>
+
+<div id="messageOutput" className={style.home_page_block_6_list1_message}></div>
         
         </div>
 
@@ -220,15 +227,27 @@ const HomePage = () => {
           <p className={style.home_page_block_6_list2_2_text1}>Fax: (996) 312 - 88 - 77 - 66</p>
         </div>
         <div className={style.home_page_block_6_list2_5}>
-          <p className={style.home_page_block_6_list2_2_text1}>Делитесь впечетлениями о <br />  нашем клебе и успехам с <br /> друзьями в социальных сетях</p>
+          <p className={style.home_page_block_6_list2_2_text1}>Делитесь впечетлениями о <br /> нашем клебе и успехам с <br /> друзьями в социальных сетях</p>
         </div>
         <div className={style.home_page_block_6_list2_6}>
-          <img src={whatsapp} alt="" />
-          <img src={you_tube} alt="" />
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
-          <img src={tik_tok} alt="" />
-          <img src={twitter} alt="" />
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+    <img src={whatsapp} alt="WhatsApp" />
+  </a>
+  <a href="https://www.youtube.com/@Topstretching.workout/videos" target="_blank" rel="noopener noreferrer">
+    <img src={you_tube} alt="YouTube" />
+  </a>
+  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+    <img src={facebook} alt="Facebook" />
+  </a>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+    <img src={instagram} alt="Instagram" />
+  </a>
+  <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+    <img src={tik_tok} alt="TikTok" />
+  </a>
+  <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+    <img src={twitter} alt="Twitter" />
+  </a>
           </div>
         </div>
         </div>
@@ -241,7 +260,7 @@ const HomePage = () => {
           <p>Найти нас на карте:</p>
         </div>
         <div className={style.home_page_block_6_list3_photo}>
-          <img src={map} alt="" />
+          <img className={style.home_page_block_6_list3_photo_adaptiv} src={map} alt="" />
         </div>
         </div>
 
@@ -253,6 +272,8 @@ const HomePage = () => {
     </div>
   </div>
   )
+
+
 }
 
 export default HomePage

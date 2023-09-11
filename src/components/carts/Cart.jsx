@@ -22,6 +22,7 @@ const Cart = () => {
         <>
           {cart.products.length ? (
             <>
+            <div className={style.cartTable_main}>
               <table className={style.cartTable}>
                 <thead>
                   <tr>
@@ -60,6 +61,7 @@ const Cart = () => {
                   ))}
                 </tbody>
               </table>
+              </div>
 
               <h3>Total cost: ${cart.totalCost}</h3>
               <button className={style.cleanCartButton} onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>

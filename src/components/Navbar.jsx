@@ -13,6 +13,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { changeCategory, changeSearchVal } from '../store/products/productsSlice'
 import { useState } from 'react';
+import logo from '../img/navBar/logo.png'
 
 const darkTheme = createTheme({
   palette: {
@@ -61,7 +62,7 @@ export default function EnableColorOnDarkAppBar() {
           <div className={style.nav_main}>
           <div className={style.nav_main_list}>
         <div onClick={() => navigate("/")} className={style.nav_logo}>
-            <button className={style.nav_logo_btn}>Logo</button>
+            < img src={ logo } alt="logo" className={style.nav_logo_btn}/>
           </div>
 
           
@@ -122,7 +123,7 @@ export default function EnableColorOnDarkAppBar() {
               dispatch(changeSearchVal({ search }));
               dispatch(getProducts());
             }}>
-              <input type="text" onChange={(e) => setSearch(e.target.value)}/>
+              <input className={style.nav_search_input} type="text" onChange={(e) => setSearch(e.target.value)}/>
               <button className={style.nav_search_btn} type="submit">Search</button>
             </form>
         
