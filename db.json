@@ -41,17 +41,17 @@
       "id": 6
     },
     {
-      "name": "Studio Display",
-      "description": "Потрясающий 27-дюймовый дисплей Retina 5K, и миллиард цветов. Ультраширокая камера 12 МП с функцией 'В центре внимания' Три микрофона студийного качества и звуковая система с шестью динамиками и функцией Spatial Audio. Порты для подключения и зарядки",
+      "name": "Rowing Machine",
+      "description": "A high-quality Rowing Machine designed to provide a comprehensive full-body workout experience. Its smooth and adjustable resistance levels cater to various fitness levels, allowing users to effectively engage their muscles and improve cardiovascular endurance. Compact and user-friendly, this Rowing Machine offers a convenient and efficient way to enhance your fitness routine from the comfort of your own home.",
       "price": 2000,
-      "picture": "https://www.istore.kg/media/products/studio-display-1.webp",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1-Yc5fZaHY5MOYUHtnPCwnowiHla4uwiiA&usqp=CAU",
       "category": "Equipment",
       "id": 7
     },
     {
       "name": "Yoga",
       "description": "Yoga is a physical, mental, and spiritual practice that originated in ancient India. It includes a combination of physical postures, breathing exercises, and meditation techniques to promote physical and mental well-being.",
-      "price": 0,
+      "price": 10.99,
       "picture": "https://imgeng.jagran.com/images/2023/jun/yoga-day%20(2)1687313273076.jpg",
       "category": "Exercise",
       "id": 8
@@ -67,7 +67,7 @@
     {
       "name": "Weightlifting",
       "description": "Weightlifting, also known as strength training or resistance training, involves lifting weights to build and tone muscles. It is an effective way to increase strength and muscle mass.",
-      "price": 0,
+      "price": 15.99,
       "picture": "https://images.theconversation.com/files/528518/original/file-20230526-23-5fzgqw.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6200%2C3099&q=45&auto=format&w=668&h=324&fit=crop",
       "category": "Exercise",
       "id": 10
@@ -75,7 +75,7 @@
     {
       "name": "Cardiovascular Exercise",
       "description": "Cardiovascular exercises, such as running, cycling, and swimming, are designed to improve heart and lung health. They are great for burning calories and increasing endurance.",
-      "price": 0,
+      "price": 12.99,
       "picture": "https://images.ctfassets.net/4f3rgqwzdznj/4RhNlPxGDxslNljmLS2dSr/4cbaf720cebc89659c513215f6581233/GettyImages-1195045259.jpg",
       "category": "Exercise",
       "id": 11
