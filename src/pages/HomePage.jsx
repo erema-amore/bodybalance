@@ -236,13 +236,13 @@ const HomePage = () => {
   <a href="https://www.youtube.com/@Topstretching.workout/videos" target="_blank" rel="noopener noreferrer">
     <img src={you_tube} alt="YouTube" />
   </a>
-  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/bodybalancewithizzy" target="_blank" rel="noopener noreferrer">
     <img src={facebook} alt="Facebook" />
   </a>
-  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/balanced_body/" target="_blank" rel="noopener noreferrer">
     <img src={instagram} alt="Instagram" />
   </a>
-  <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.tiktok.com/@lesmills/video/7158093612461329666?q=body%20balance&t=1694425784852" target="_blank" rel="noopener noreferrer">
     <img src={tik_tok} alt="TikTok" />
   </a>
   <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
@@ -259,9 +259,9 @@ const HomePage = () => {
         <div className={style.home_page_block_6_list3_text}>
           <p>Найти нас на карте:</p>
         </div>
-        <div className={style.home_page_block_6_list3_photo}>
+        <a className={style.home_page_block_6_list3_photo} href="https://2gis.kg/bishkek/geo/15763234351062857" target="_blank" rel="noopener noreferrer"> 
           <img className={style.home_page_block_6_list3_photo_adaptiv} src={map} alt="" />
-        </div>
+        </a>
         </div>
 
       </div>
