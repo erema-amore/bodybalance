@@ -33,7 +33,6 @@
 
   .cardContent_txt_1 {
     font-family: 'Montserrat', sans-serif;
-    /* color: #FFFFFF; */
     color: aqua;
     font-weight: 700;
     font-size: 25px;
@@ -44,6 +43,8 @@
   .cardContent {
     text-align: center;
     background-color: #181818;
+    
+    
     
   }
   
@@ -57,13 +58,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin: 8px 0;
-    /* color: #FFFFFF; */
     color: aqua;
   }
   
   .category {
     font-family: 'Montserrat', sans-serif;
-    /* color: #FFFFFF; */
     color: aqua;
     font-weight: 500;
     font-size: 18px;
@@ -72,7 +71,6 @@
   
   .description {
     font-family: 'Montserrat', sans-serif;
-    /* color: #FFFFFF; */
     color: aqua;
     margin-top: 10px;
     font-weight: 400;
@@ -81,7 +79,6 @@
   }
   
   .productItem__btn button {
-    /* background: black; */
     background: #FA3A10;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
@@ -136,7 +133,7 @@
       border-radius: 10px;
       display: flex;
       flex-direction: column;
-      justify-content: end;
+      justify-content: space-between;
       
     }
   
@@ -178,7 +175,6 @@
     
   .cardContent_txt_1 {
     font-family: 'Montserrat', sans-serif;
-    /* color: #FFFFFF; */
     color: aqua;
     font-weight: 700;
     font-size: 25px;

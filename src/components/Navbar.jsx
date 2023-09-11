@@ -75,7 +75,7 @@ export default function EnableColorOnDarkAppBar() {
           </div>
           <div>
           <div>
-      <Button className={style.nav_dashboard_btn}
+      <button className={style.nav_dashboard_btn}
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
@@ -83,7 +83,7 @@ export default function EnableColorOnDarkAppBar() {
         onClick={handleClick}
       >
         Products Type
-      </Button>
+      </button>
       <Menu
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
