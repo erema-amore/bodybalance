@@ -65,7 +65,10 @@ const Cart = () => {
 
               <h3>Total cost: ${cart.totalCost}</h3>
               <button className={style.cleanCartButton} onClick={() => {cleanCart(); dispatch(getCart()) }}>Clean cart</button>
-              <button className={style.placeOrderButton} onClick={() => {getOneOrder();  dispatch(placeTheOrder(cart)); navigate("/myorder"); cleanCart(); }} >Place your order</button>
+              <button className={style.placeOrderButton} onClick={() => {
+                dispatch(placeTheOrder({cart, navigate})); 
+                cleanCart(); 
+              }} >Place your order</button>
 
             </>
           ) : (

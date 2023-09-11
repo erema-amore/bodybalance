@@ -164,7 +164,7 @@
   "carts": [
     {
       "cart": {
-        "user": "mr",
+        "user": null,
         "totalCost": 1019.99,
         "products": [
           {
@@ -174,7 +174,7 @@
               "name": "Treadmill 2023",
               "description": "A high-quality treadmill for cardio workouts.",
               "price": "1000",
-              "picture": "https://example.com/treadmill.jpg",
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
               "category": "Equipment",
               "id": 2
             }
@@ -186,7 +186,7 @@
               "name": "Yoga Mat",
               "description": "A non-slip yoga mat for comfortable practice.",
               "price": 19.99,
-              "picture": "https://example.com/yoga-mat.jpg",
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
               "category": "Equipment",
               "id": 3
             }
@@ -197,42 +197,21 @@
     },
     {
       "cart": {
-        "user": "w",
-        "totalCost": 280,
+        "user": null,
+        "totalCost": 1019.99,
         "products": [
           {
             "count": 1,
-            "totalCost": 100,
+            "totalCost": 1000,
             "productItem": {
-              "name": "One Month Gym Access",
-              "description": "30 days unlimited gym access with free sauna and locker room , shower and other perks",
-              "picture": "",
-              "price": "100",
-              "category": "membership",
-              "id": 18
+              "name": "Treadmill 2023",
+              "description": "A high-quality treadmill for cardio workouts.",
+              "price": "1000",
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
+              "category": "Equipment",
+              "id": 2
             }
           },
-          {
-            "count": 1,
-            "totalCost": 180,
-            "productItem": {
-              "name": "Two Months Gym Access",
-              "description": "Two moths unlimited gym access and free sauna nd shower use ",
-              "picture": "",
-              "price": "180",
-              "category": "membership",
-              "id": 19
-            }
-          }
-        ]
-      },
-      "id": 2
-    },
-    {
-      "cart": {
-        "user": "jil",
-        "totalCost": 5188.8899999999985,
-        "products": [
           {
             "count": 1,
             "totalCost": 19.99,
@@ -244,223 +223,16 @@
               "category": "Equipment",
               "id": 3
             }
-          },
-          {
-            "count": 1,
-            "totalCost": 349.99,
-            "productItem": {
-              "name": "Exercise Bike",
-              "description": "An indoor exercise bike for cardio and leg workouts.",
-              "price": 349.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cof6MkkWXNlyeE_82VQqPZJHNc0HxIifwLPoCAop0gKlFWTNT0fgfMtqmJ5PDr9RsE&usqp=CAU",
-              "category": "Equipment",
-              "id": 4
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 149.99,
-            "productItem": {
-              "name": "Weight Bench",
-              "description": "A versatile weight bench for various strength exercises.",
-              "price": 149.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoA-qGTjRSeq7EIKJBgYSCCmlhcAfq8YLNg&usqp=CAU",
-              "category": "Equipment",
-              "id": 5
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 24.99,
-            "productItem": {
-              "name": "Resistance Bands Set",
-              "description": "A set of resistance bands for full-body workouts.",
-              "price": 24.99,
-              "picture": "https://armageddonsports.com/cdn/shop/products/11pcsmain_400x@2x.jpg?v=1598963011",
-              "category": "Equipment",
-              "id": 6
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 2000,
-            "productItem": {
-              "name": "Studio Display",
-              "description": "Потрясающий 27-дюймовый дисплей Retina 5K, и миллиард цветов. Ультраширокая камера 12 МП с функцией 'В центре внимания' Три микрофона студийного качества и звуковая система с шестью динамиками и функцией Spatial Audio. Порты для подключения и зарядки",
-              "price": 2000,
-              "picture": "https://www.istore.kg/media/products/studio-display-1.webp",
-              "category": "Equipment",
-              "id": 7
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Yoga",
-              "description": "Yoga is a physical, mental, and spiritual practice that originated in ancient India. It includes a combination of physical postures, breathing exercises, and meditation techniques to promote physical and mental well-being.",
-              "price": 0,
-              "picture": "https://imgeng.jagran.com/images/2023/jun/yoga-day%20(2)1687313273076.jpg",
-              "category": "Exercise",
-              "id": 8
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 10.99,
-            "productItem": {
-              "name": "Zumba",
-              "description": "Zumba is a high-energy fitness dance class that combines Latin and international music with dance moves. It is a fun and effective way to improve cardiovascular fitness and burn calories.",
-              "price": 10.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMz2G6P_9KthoCJb1RI9SSWnwy8jYsPFLqA&usqp=CAU",
-              "category": "Exercise",
-              "id": 9
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Weightlifting",
-              "description": "Weightlifting, also known as strength training or resistance training, involves lifting weights to build and tone muscles. It is an effective way to increase strength and muscle mass.",
-              "price": 0,
-              "picture": "https://images.theconversation.com/files/528518/original/file-20230526-23-5fzgqw.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6200%2C3099&q=45&auto=format&w=668&h=324&fit=crop",
-              "category": "Exercise",
-              "id": 10
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Cardiovascular Exercise",
-              "description": "Cardiovascular exercises, such as running, cycling, and swimming, are designed to improve heart and lung health. They are great for burning calories and increasing endurance.",
-              "price": 0,
-              "picture": "https://images.ctfassets.net/4f3rgqwzdznj/4RhNlPxGDxslNljmLS2dSr/4cbaf720cebc89659c513215f6581233/GettyImages-1195045259.jpg",
-              "category": "Exercise",
-              "id": 11
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 15.99,
-            "productItem": {
-              "name": "Pilates",
-              "description": "Pilates is a low-impact exercise method that focuses on strengthening the core muscles, improving flexibility, and enhancing body awareness. It is suitable for all fitness levels.",
-              "price": 15.99,
-              "picture": "https://www.sportlife.cl/wp-content/uploads/2021/11/PILATES-REFORMERS-scaled.jpg",
-              "category": "Exercise",
-              "id": 12
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 29.99,
-            "productItem": {
-              "name": "Protein Powder",
-              "description": "Whey protein powder for muscle recovery and growth.",
-              "price": 29.99,
-              "picture": "https://sportsone.com.pk/wp-content/uploads/2022/08/protein-Main-baner.jpg",
-              "category": "Supplements",
-              "id": 13
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 14.99,
-            "productItem": {
-              "name": "Multivitamins",
-              "description": "A daily multivitamin supplement to support overall health.",
-              "price": 14.99,
-              "picture": "https://www.naturemade.com/cdn/shop/collections/Multivitamins.jpg?v=1687797147",
-              "category": "Supplements",
-              "id": 14
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 19.99,
-            "productItem": {
-              "name": "Fish Oil Capsules",
-              "description": "Omega-3 fish oil capsules for heart and brain health.",
-              "price": 19.99,
-              "picture": "https://cdn3.mydukaan.io/app/image/700x700/?url=https://cdn.shopify.com/s/files/1/1375/4957/articles/Omega-3.jpg?v=1638601304",
-              "category": "Supplements",
-              "id": 15
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 12.99,
-            "productItem": {
-              "name": "Creatine Monohydrate",
-              "description": "Creatine supplement for increased strength and endurance.",
-              "price": 12.99,
-              "picture": "https://th-i.thgim.com/public/incoming/d7xi13/article65665775.ece/alternates/FREE_1200/Top-%26-Best-Creatine-Monohydrate-Powder-in-India.png",
-              "category": "Supplements",
-              "id": 16
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 18.99,
-            "productItem": {
-              "name": "Probiotics",
-              "description": "Probiotic capsules for digestive health and gut balance.",
-              "price": 18.99,
-              "picture": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1685095929.webp",
-              "category": "Supplements",
-              "id": 17
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 100,
-            "productItem": {
-              "name": "One Month Gym Access",
-              "description": "30 days unlimited gym access with free sauna and locker room , shower and other perks",
-              "picture": "https://firstquarterfinance.com/wp-content/uploads/Month-to-Month-Gym-Membership-Featured-Image.jpg",
-              "price": "100",
-              "category": "membership",
-              "id": 18
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 180,
-            "productItem": {
-              "name": "Two Months Gym Access",
-              "description": "Two moths unlimited gym access and free sauna nd shower use ",
-              "picture": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_05/2732526/190128-exercise-gym-ac-556p.jpg",
-              "price": "180",
-              "category": "membership",
-              "id": 19
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 240,
-            "productItem": {
-              "name": "Three Months Gym Access",
-              "description": "3 moths access to gym and facilities ",
-              "picture": "https://www.msrmarket.in/cdn/shop/products/IMG_20210307_130456_2f7e33f4-13cb-438b-8c20-c4851fde04a9_1080x593.jpg?v=1615103308",
-              "price": "240",
-              "category": "membership",
-              "id": 20
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 1000,
-            "productItem": {
-              "name": "One year Gym Access",
-              "description": "",
-              "picture": "https://imgcc-a.akamaihd.net/offers/420683/636717443685337452.jpg?width=1024&height=614&anchor=middlecenter&cropxunits=100&cropyunits=100&mode=crop&crop=(9.03225,0.0,88.15483,100.0)&scale=both",
-              "price": "1000",
-              "category": "membership",
-              "id": 21
-            }
-          },
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "cart": {
+        "user": null,
+        "totalCost": 1019.99,
+        "products": [
           {
             "count": 1,
             "totalCost": 1000,
@@ -471,6 +243,18 @@
               "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
               "category": "Equipment",
               "id": 2
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 19.99,
+            "productItem": {
+              "name": "Yoga Mat",
+              "description": "A non-slip yoga mat for comfortable practice.",
+              "price": 19.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
+              "category": "Equipment",
+              "id": 3
             }
           }
         ]
@@ -480,7 +264,52 @@
     {
       "cart": {
         "user": null,
-        "totalCost": 3601.9299999999994,
+        "totalCost": 1169.98,
+        "products": [
+          {
+            "count": 1,
+            "totalCost": 19.99,
+            "productItem": {
+              "name": "Yoga Mat",
+              "description": "A non-slip yoga mat for comfortable practice.",
+              "price": 19.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
+              "category": "Equipment",
+              "id": 3
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 1000,
+            "productItem": {
+              "name": "Treadmill 2023",
+              "description": "A high-quality treadmill for cardio workouts.",
+              "price": "1000",
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
+              "category": "Equipment",
+              "id": 2
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 149.99,
+            "productItem": {
+              "name": "Weight Bench",
+              "description": "A versatile weight bench for various strength exercises.",
+              "price": 149.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoA-qGTjRSeq7EIKJBgYSCCmlhcAfq8YLNg&usqp=CAU",
+              "category": "Equipment",
+              "id": 5
+            }
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "cart": {
+        "user": null,
+        "totalCost": 1369.98,
         "products": [
           {
             "count": 1,
@@ -517,17 +346,26 @@
               "category": "Equipment",
               "id": 4
             }
-          },
+          }
+        ]
+      },
+      "id": 5
+    },
+    {
+      "cart": {
+        "user": "jil",
+        "totalCost": 44.98,
+        "products": [
           {
             "count": 1,
-            "totalCost": 149.99,
+            "totalCost": 19.99,
             "productItem": {
-              "name": "Weight Bench",
-              "description": "A versatile weight bench for various strength exercises.",
-              "price": 149.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoA-qGTjRSeq7EIKJBgYSCCmlhcAfq8YLNg&usqp=CAU",
+              "name": "Yoga Mat",
+              "description": "A non-slip yoga mat for comfortable practice.",
+              "price": 19.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
               "category": "Equipment",
-              "id": 5
+              "id": 3
             }
           },
           {
@@ -541,94 +379,10 @@
               "category": "Equipment",
               "id": 6
             }
-          },
-          {
-            "count": 1,
-            "totalCost": 2000,
-            "productItem": {
-              "name": "Studio Display",
-              "description": "Потрясающий 27-дюймовый дисплей Retina 5K, и миллиард цветов. Ультраширокая камера 12 МП с функцией 'В центре внимания' Три микрофона студийного качества и звуковая система с шестью динамиками и функцией Spatial Audio. Порты для подключения и зарядки",
-              "price": 2000,
-              "picture": "https://www.istore.kg/media/products/studio-display-1.webp",
-              "category": "Equipment",
-              "id": 7
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Yoga",
-              "description": "Yoga is a physical, mental, and spiritual practice that originated in ancient India. It includes a combination of physical postures, breathing exercises, and meditation techniques to promote physical and mental well-being.",
-              "price": 0,
-              "picture": "https://imgeng.jagran.com/images/2023/jun/yoga-day%20(2)1687313273076.jpg",
-              "category": "Exercise",
-              "id": 8
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 10.99,
-            "productItem": {
-              "name": "Zumba",
-              "description": "Zumba is a high-energy fitness dance class that combines Latin and international music with dance moves. It is a fun and effective way to improve cardiovascular fitness and burn calories.",
-              "price": 10.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMz2G6P_9KthoCJb1RI9SSWnwy8jYsPFLqA&usqp=CAU",
-              "category": "Exercise",
-              "id": 9
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Weightlifting",
-              "description": "Weightlifting, also known as strength training or resistance training, involves lifting weights to build and tone muscles. It is an effective way to increase strength and muscle mass.",
-              "price": 0,
-              "picture": "https://images.theconversation.com/files/528518/original/file-20230526-23-5fzgqw.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6200%2C3099&q=45&auto=format&w=668&h=324&fit=crop",
-              "category": "Exercise",
-              "id": 10
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 0,
-            "productItem": {
-              "name": "Cardiovascular Exercise",
-              "description": "Cardiovascular exercises, such as running, cycling, and swimming, are designed to improve heart and lung health. They are great for burning calories and increasing endurance.",
-              "price": 0,
-              "picture": "https://images.ctfassets.net/4f3rgqwzdznj/4RhNlPxGDxslNljmLS2dSr/4cbaf720cebc89659c513215f6581233/GettyImages-1195045259.jpg",
-              "category": "Exercise",
-              "id": 11
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 15.99,
-            "productItem": {
-              "name": "Pilates",
-              "description": "Pilates is a low-impact exercise method that focuses on strengthening the core muscles, improving flexibility, and enhancing body awareness. It is suitable for all fitness levels.",
-              "price": 15.99,
-              "picture": "https://www.sportlife.cl/wp-content/uploads/2021/11/PILATES-REFORMERS-scaled.jpg",
-              "category": "Exercise",
-              "id": 12
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 29.99,
-            "productItem": {
-              "name": "Protein Powder",
-              "description": "Whey protein powder for muscle recovery and growth.",
-              "price": 29.99,
-              "picture": "https://sportsone.com.pk/wp-content/uploads/2022/08/protein-Main-baner.jpg",
-              "category": "Supplements",
-              "id": 13
-            }
           }
         ]
       },
-      "id": 4
+      "id": 6
     }
   ]
 }
