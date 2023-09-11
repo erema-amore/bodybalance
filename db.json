@@ -165,7 +165,7 @@
     {
       "cart": {
         "user": null,
-        "totalCost": 1019.99,
+        "totalCost": 1519.97,
         "products": [
           {
             "count": 1,
@@ -189,6 +189,30 @@
               "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
               "category": "Equipment",
               "id": 3
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 349.99,
+            "productItem": {
+              "name": "Exercise Bike",
+              "description": "An indoor exercise bike for cardio and leg workouts.",
+              "price": 349.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cof6MkkWXNlyeE_82VQqPZJHNc0HxIifwLPoCAop0gKlFWTNT0fgfMtqmJ5PDr9RsE&usqp=CAU",
+              "category": "Equipment",
+              "id": 4
+            }
+          },
+          {
+            "count": 1,
+            "totalCost": 149.99,
+            "productItem": {
+              "name": "Weight Bench",
+              "description": "A versatile weight bench for various strength exercises.",
+              "price": 149.99,
+              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoA-qGTjRSeq7EIKJBgYSCCmlhcAfq8YLNg&usqp=CAU",
+              "category": "Equipment",
+              "id": 5
             }
           }
         ]
@@ -227,162 +251,6 @@
         ]
       },
       "id": 2
-    },
-    {
-      "cart": {
-        "user": null,
-        "totalCost": 1019.99,
-        "products": [
-          {
-            "count": 1,
-            "totalCost": 1000,
-            "productItem": {
-              "name": "Treadmill 2023",
-              "description": "A high-quality treadmill for cardio workouts.",
-              "price": "1000",
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
-              "category": "Equipment",
-              "id": 2
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 19.99,
-            "productItem": {
-              "name": "Yoga Mat",
-              "description": "A non-slip yoga mat for comfortable practice.",
-              "price": 19.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
-              "category": "Equipment",
-              "id": 3
-            }
-          }
-        ]
-      },
-      "id": 3
-    },
-    {
-      "cart": {
-        "user": null,
-        "totalCost": 1169.98,
-        "products": [
-          {
-            "count": 1,
-            "totalCost": 19.99,
-            "productItem": {
-              "name": "Yoga Mat",
-              "description": "A non-slip yoga mat for comfortable practice.",
-              "price": 19.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
-              "category": "Equipment",
-              "id": 3
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 1000,
-            "productItem": {
-              "name": "Treadmill 2023",
-              "description": "A high-quality treadmill for cardio workouts.",
-              "price": "1000",
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
-              "category": "Equipment",
-              "id": 2
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 149.99,
-            "productItem": {
-              "name": "Weight Bench",
-              "description": "A versatile weight bench for various strength exercises.",
-              "price": 149.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoA-qGTjRSeq7EIKJBgYSCCmlhcAfq8YLNg&usqp=CAU",
-              "category": "Equipment",
-              "id": 5
-            }
-          }
-        ]
-      },
-      "id": 4
-    },
-    {
-      "cart": {
-        "user": null,
-        "totalCost": 1369.98,
-        "products": [
-          {
-            "count": 1,
-            "totalCost": 1000,
-            "productItem": {
-              "name": "Treadmill 2023",
-              "description": "A high-quality treadmill for cardio workouts.",
-              "price": "1000",
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXIKtYLycTEwhoBu4CXPLguHJj2B9RmO3g&usqp=CAU",
-              "category": "Equipment",
-              "id": 2
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 19.99,
-            "productItem": {
-              "name": "Yoga Mat",
-              "description": "A non-slip yoga mat for comfortable practice.",
-              "price": 19.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
-              "category": "Equipment",
-              "id": 3
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 349.99,
-            "productItem": {
-              "name": "Exercise Bike",
-              "description": "An indoor exercise bike for cardio and leg workouts.",
-              "price": 349.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6cof6MkkWXNlyeE_82VQqPZJHNc0HxIifwLPoCAop0gKlFWTNT0fgfMtqmJ5PDr9RsE&usqp=CAU",
-              "category": "Equipment",
-              "id": 4
-            }
-          }
-        ]
-      },
-      "id": 5
-    },
-    {
-      "cart": {
-        "user": "jil",
-        "totalCost": 44.98,
-        "products": [
-          {
-            "count": 1,
-            "totalCost": 19.99,
-            "productItem": {
-              "name": "Yoga Mat",
-              "description": "A non-slip yoga mat for comfortable practice.",
-              "price": 19.99,
-              "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOlU176LOjNhjsQ3jJsx0Hm__YFWQI4MjHg&usqp=CAU",
-              "category": "Equipment",
-              "id": 3
-            }
-          },
-          {
-            "count": 1,
-            "totalCost": 24.99,
-            "productItem": {
-              "name": "Resistance Bands Set",
-              "description": "A set of resistance bands for full-body workouts.",
-              "price": 24.99,
-              "picture": "https://armageddonsports.com/cdn/shop/products/11pcsmain_400x@2x.jpg?v=1598963011",
-              "category": "Equipment",
-              "id": 6
-            }
-          }
-        ]
-      },
-      "id": 6
     }
   ]
 }
